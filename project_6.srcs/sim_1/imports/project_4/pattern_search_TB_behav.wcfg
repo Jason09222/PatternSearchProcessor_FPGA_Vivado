@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pattern_search_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="pattern_search_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="150fs"></ZoomStartTime>
+      <ZoomEndTime time="546151fs"></ZoomEndTime>
+      <Cursor1Time time="504150fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="187"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/pattern_search_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/count" type="array">
+      <obj_property name="ElementShortName">count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">count[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/reg_file/sig_regfile" type="array">
+      <obj_property name="ElementShortName">sig_regfile[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_regfile[0:31][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/ID_forwarding_unit/ex_new_a" type="array">
+      <obj_property name="ElementShortName">ex_new_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_new_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/ID_forwarding_unit/ex_new_b" type="array">
+      <obj_property name="ElementShortName">ex_new_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_new_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/IF_ID_instruction/output" type="array">
+      <obj_property name="ElementShortName">output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/c_if_branch_sel" type="logic">
+      <obj_property name="ElementShortName">c_if_branch_sel</obj_property>
+      <obj_property name="ObjectShortName">c_if_branch_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/id_pc_plus_1" type="array">
+      <obj_property name="ElementShortName">id_pc_plus_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">id_pc_plus_1[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/id_pc_plus_1_and_offset" type="array">
+      <obj_property name="ElementShortName">id_pc_plus_1_and_offset[7:0]</obj_property>
+      <obj_property name="ObjectShortName">id_pc_plus_1_and_offset[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/MEM_WB_memory_data_register/output" type="array">
+      <obj_property name="ElementShortName">output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/char_d" type="array">
+      <obj_property name="ElementShortName">char_d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">char_d[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/length_d" type="array">
+      <obj_property name="ElementShortName">length_d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">length_d[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/occurence_d" type="array">
+      <obj_property name="ElementShortName">occurence_d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">occurence_d[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/length_mem/addr_in" type="array">
+      <obj_property name="ElementShortName">addr_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/c_id_indir_read_a" type="logic">
+      <obj_property name="ElementShortName">c_id_indir_read_a</obj_property>
+      <obj_property name="ObjectShortName">c_id_indir_read_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/char_mem/sig_data_mem" type="array">
+      <obj_property name="ElementShortName">sig_data_mem[0:255][15:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_data_mem[0:255][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/character_address_8b" type="array">
+      <obj_property name="ElementShortName">character_address_8b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">character_address_8b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pattern_search_TB/UUT/data_mem/occur_mem/sig_data_mem" type="array">
+      <obj_property name="ElementShortName">sig_data_mem[0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_data_mem[0:15][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,51 @@
+Vivado Simulator v2020.2.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e34f74dcee0d465d9bc6ef5a0448045e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pattern_search_TB_behav xil_defaultlib.pattern_search_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.program_counter [program_counter_default]
+Compiling architecture behavioural of entity xil_defaultlib.adder_8b [adder_8b_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_address_translation [instruction_address_translation_...]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_memory [instruction_memory_default]
+Compiling architecture behavioural of entity xil_defaultlib.mux_2to1_1b [mux_2to1_1b_default]
+Compiling architecture structural of entity xil_defaultlib.mux_2to1_8b [mux_2to1_8b_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_nb [\register_nb(n=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.register_nb [\register_nb(n=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.hazard_detection_unit [hazard_detection_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.unsigned_signed_extend_8to16 [unsigned_signed_extend_8to16_def...]
+Compiling architecture behavioural of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_file [register_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_nb [\register_nb(n=7)\]
+Compiling architecture behavioral of entity xil_defaultlib.register_nb [\register_nb(n=9)\]
+Compiling architecture behavioral of entity xil_defaultlib.register_nb [register_nb_default]
+Compiling architecture structural of entity xil_defaultlib.mux_2to1_16b [mux_2to1_16b_default]
+Compiling architecture behavioural of entity xil_defaultlib.adder_16b [adder_16b_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_16b [comparator_16b_default]
+Compiling architecture behavioral of entity xil_defaultlib.barrel_left_shift_comp_16b [barrel_left_shift_comp_16b_defau...]
+Compiling architecture behavioral of entity xil_defaultlib.barrel_left_shift_comp_16b [\barrel_left_shift_comp_16b(shif...]
+Compiling architecture behavioral of entity xil_defaultlib.barrel_left_shift_comp_16b [\barrel_left_shift_comp_16b(shif...]
+Compiling architecture behavioral of entity xil_defaultlib.barrel_left_shift_comp_16b [\barrel_left_shift_comp_16b(shif...]
+Compiling architecture behavioral of entity xil_defaultlib.barrel_left_shift_16b [barrel_left_shift_16b_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_nb [\register_nb(n=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.register_nb [\register_nb(n=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.character_data [character_data_default]
+Compiling architecture behavioral of entity xil_defaultlib.length_data [length_data_default]
+Compiling architecture behavioral of entity xil_defaultlib.occurrence_data [occurrence_data_default]
+Compiling architecture behavioral of entity xil_defaultlib.translation_unit [translation_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.occurence_adder [occurence_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.data_memory [data_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.fowarding_unit [fowarding_unit_default]
+Compiling architecture structural of entity xil_defaultlib.single_cycle_core [single_cycle_core_default]
+Compiling architecture behavioral of entity xil_defaultlib.pattern_search_tb
+Built simulation snapshot pattern_search_TB_behav
